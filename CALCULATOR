@@ -1,0 +1,46 @@
+class calculator:
+    a=int(input("Enter the first number:"))
+    b=int(input("Enter the second number:"))
+    c=0
+    def add(me):
+        print(me.a)
+        print(me.b)
+        me.c=me.a+me.b
+        print(me.c)
+    def sub(me):
+            print(me.a)
+            print(me.b)
+            me.c = me.a - me.b
+            print(me.c)
+    def mul(me):
+        print(me.a)
+        print(me.b)
+        me.c=me.a*me.b
+        print(me.c)
+    def div(me):
+        print(me.a)
+        print(me.b)
+        me.c=me.a/me.b
+        print(me.c)
+    def sqr(me):
+        print(me.a)
+        print(me.b)
+
+obj=calculator()
+print("1. to perform addition",)
+print("2. to perform subraction")
+print("3. to perform multiplication")
+print("4. to perform division")
+
+choice = int(input("Choose operation (1-4): "))
+if choice==1:
+    obj.add()
+elif choice==2:
+    obj.sub
+elif choice==3:
+    obj.mul()
+elif choice== 4:
+    obj.div()
+else:
+    print("❌ Invalid choice")
+
